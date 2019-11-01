@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Visual studio specific user files
+/Card/Card.sln
+/Card/Card.vcxproj
+/Card/Card.vcxproj.filters
+/Card/Card.vcxproj.user
