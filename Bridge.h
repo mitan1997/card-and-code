@@ -20,10 +20,15 @@ private:
    static const int NUM_PLAYERS = 4;
    
 public:
+   Bridge();
+   ~Bridge();
+   Bridge(const Bridge& other) { throw UnsupportedOperationException(); }
+   Bridge& operator=(const Bridge& rhs) { throw UnsupportedOperationException(); }
    void game();
 
 private:
    int winnerOfSet() const;
+   class UnsupportedOperationException {};
 };
 
 bool operator<(const PokerCard& lhs, const PokerCard& rhs);
