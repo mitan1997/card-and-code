@@ -15,13 +15,15 @@ Bridge::~Bridge() {
 }
 
 void Bridge::game() {
-
+   // TODO
 }
 
 int Bridge::winnerOfSet() const {
-
+   return -1;
+   // TODO
 }
 
 bool operator<(const PokerCard& lhs, const PokerCard& rhs) {
-
+   return false;
+   // TODO
 }
