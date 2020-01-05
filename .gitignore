@@ -350,3 +350,7 @@ healthchecksdb
 /Card/Card.vcxproj
 /Card/Card.vcxproj.filters
 /Card/Card.vcxproj.user
+
+# CLion Configuration Files
+*/CMakeLists.txt
+*/cmake-build-debug/
